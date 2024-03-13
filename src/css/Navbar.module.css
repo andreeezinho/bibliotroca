@@ -5,10 +5,6 @@
     padding: 1em;
 }
 
-.ver, input {
-    display: none;
-}
-
 .menuMobile{
     display: none;
 }
@@ -17,6 +13,9 @@
     width: 80px;
     height: 80px;
     margin-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 .navbar .ulDesktop{
@@ -31,6 +30,7 @@
 }
 
 .navbar ul li a{
+    font-size: 22px;
     text-decoration: none;
     color: white;
     text-wrap: nowrap;
@@ -42,19 +42,12 @@
 
 
 @media(max-width: 500px){
-    .ver{
-        display: flex;
-    }
-
-    input[type=checkbox]:checked ~ .menuMobile{
-        display: block;
-    }
-
     .navbar .ulDesktop{
         display: none;
     }
 
     .navbar img{
-        margin-left: 10px;
+        width: 55px;
+        height: 55px;
     }
 }
