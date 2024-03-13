@@ -1,14 +1,60 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
+    background-color: #7C4BDD;
     padding: 1em;
 }
 
-.navbar ul{
-    position:initial;
-    right: 0;
+.ver, input {
+    display: none;
+}
+
+.menuMobile{
+    display: none;
+}
+
+.navbar img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.navbar .ulDesktop{
     display: flex;
     list-style: none;
     align-items: center;
+    margin-right: 10px;
+}
+
+.navbar .ulDesktop li{
+    margin: 0 15px 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-wrap: nowrap;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+
+@media(max-width: 500px){
+    .ver{
+        display: flex;
+    }
+
+    input[type=checkbox]:checked ~ .menuMobile{
+        display: block;
+    }
+
+    .navbar .ulDesktop{
+        display: none;
+    }
+
+    .navbar img{
+        margin-left: 10px;
+    }
 }
