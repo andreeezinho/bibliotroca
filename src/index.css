@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(../src/css/root.module.css);
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu Mono';
+  font-family: var(--principal-font);
   font-size: 16px;
+  background-color: var(--tertiary-color);
   transition: all 0.7s ease;
 }
 

@@ -1,12 +1,10 @@
+@import url(./root.module.css);
+
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #7C4BDD;
+    background-color: var(--primary-color);
     padding: 1em;
-}
-
-.menuMobile{
-    display: none;
 }
 
 .navbar img{
@@ -16,28 +14,6 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%); 
-}
-
-.navbar .ulDesktop{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.navbar .ulDesktop li{
-    margin: 0 15px 0 15px;
-}
-
-.navbar ul li a{
-    font-size: 22px;
-    text-decoration: none;
-    color: white;
-    text-wrap: nowrap;
-}
-
-.navbar ul li a:hover{
-    text-decoration: underline;
 }
 
 
