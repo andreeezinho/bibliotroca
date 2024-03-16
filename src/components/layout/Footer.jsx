@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import {FaHome} from 'react-icons/fa';
 import {FaBook} from 'react-icons/fa';
 import {FaInfoCircle} from 'react-icons/fa';
+import{FaHandshake} from 'react-icons/fa';
+
 import stylesMedia from '../../css/media-query/NavbarMedia.module.css';
 
 
@@ -18,6 +20,10 @@ function Footer() {
 
                         <li>
                             <Link to="/books"><FaBook /> Livros </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/mybooks"><FaHandshake /> Minhas Trocas </Link>
                         </li>
 
                         <li>

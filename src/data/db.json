@@ -1,0 +1,43 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "imagem": "https://wmf.f1cdn.com.br/view/1080/1080/false/true/1736.jpg",
+            "name": "A Espada do Destino",
+            "estado": "Usado",
+            "processamento": "Livre"
+        },
+
+        {
+            "id": 2,
+            "imagem": "ImgHome.png",
+            "name": "Livro 2",
+            "estado": "Usado",
+            "processamento": "Livre"
+        },
+
+        {
+            "id": 3,
+            "imagem": "ImgHome.png",
+            "name": "Livro 1",
+            "estado": "Usado",
+            "processamento": "Livre"
+        },
+
+        {
+            "id": 4,
+            "imagem": "ImgHome.png",
+            "name": "Livro 1",
+            "estado": "Usado",
+            "processamento": "Livre"
+        },
+
+        {
+            "id": 5,
+            "imagem": "ImgHome.png",
+            "name": "Livro 1",
+            "estado": "Usado",
+            "processamento": "Livre"
+        }
+    ]
+}
