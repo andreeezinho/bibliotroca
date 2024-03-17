@@ -2,7 +2,7 @@
     "books": [
         {
             "id": 1,
-            "imagem": "https://raw.githubusercontent.com/andreeezinho/bibliotroca/master/public/favicon.ico?token=GHSAT0AAAAAACPNQFQ667ZQZ646JRHVN2BUZPW77KA",
+            "imagem": "https://raw.githubusercontent.com/andreeezinho/bibliotroca/master/public/favicon.ico?token=GHSAT0AAAAAACPNQFQ6CI5WEWN46YZEPCNYZPXIZOQ",
             "name": "A Espada do Destino",
             "estado": "Usado",
             "processamento": "Livre"
@@ -10,7 +10,7 @@
 
         {
             "id": 2,
-            "imagem": "../img/Icone.png",
+            "imagem": "",
             "name": "Livro 2",
             "estado": "Usado",
             "processamento": "Livre"
