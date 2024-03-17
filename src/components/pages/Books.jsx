@@ -6,6 +6,7 @@ import stytles from "../../css/Books.module.css";
 function Books() {
     console.log(jsonData);
 
+    
     return(
         <section className={stytles.sectionContainer}>
                 {jsonData.books.map((item) => (

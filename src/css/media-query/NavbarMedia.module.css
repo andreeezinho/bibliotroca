@@ -9,6 +9,9 @@
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     padding: 3em;
+    padding-bottom: 80px;
+    clear: both;
+    margin-top: 100px;
 }
 
 .navbar{
@@ -60,6 +63,7 @@
         position: sticky;
         bottom: 0;
         padding-top: 0;
+        padding-bottom: 3em;
         z-index: 1;
     }
 

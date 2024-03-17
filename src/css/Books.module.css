@@ -1,4 +1,25 @@
-.sectionContainer div img{
-    width: 500px;
-    height: 500px;
+@import url("../css/root.module.css");
+
+.sectionContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: space-evenly;
+}
+
+.sectionContainer div{
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    margin: 50px 0 0 0;
+    border-radius: 20px;
+    box-shadow: -10px 20px 10px #d0cfeb;
+}
+
+.sectionContainer div img {
+    width: 100px;
+    height: 100px;
 }
