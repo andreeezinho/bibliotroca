@@ -23,7 +23,7 @@ function Footer() {
                         </li>
 
                         <li>
-                            <Link to="/mybooks"><FaHandshake /> Minhas Trocas </Link>
+                            <Link to="/mybooks"><FaHandshake /> Add Livros </Link>
                         </li>
 
                         <li>

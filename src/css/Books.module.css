@@ -6,15 +6,17 @@
     align-items: center;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    justify-content: space-evenly;
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-between;
+    padding-top: 80px;
 }
 
 .sectionContainer div{
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     background-color: #fff;
-    margin: 50px 0 0 0;
     border-radius: 20px;
     box-shadow: -10px 20px 10px #d0cfeb;
 }
