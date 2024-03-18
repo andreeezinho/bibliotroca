@@ -1,5 +1,18 @@
 @import url("../css/root.module.css");
 
+.detalhes{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 15px
+}
+
 .sectionContainer {
     width: 100%;
     justify-content: center;
@@ -24,14 +37,6 @@
     }
 }
 
-.noCard{
-    display: none;
-}
-
-.msg{
-    background-color: black;
-}
-
 .divContainer{
     width: 300px;
     height: 350px;
@@ -39,7 +44,6 @@
     border-radius: 20px;
     box-shadow: -10px 20px 10px #d0cfeb;
 }
-
 
 .divImg{
     width: 100%;
@@ -70,17 +74,18 @@
     margin: 15px 0 30px 0;
 }
 
-.divInfo a{
+.divInfo button{
     padding-left: 0;
     text-decoration: none;
     font-size: 16px;
     color: var(--tertiary-color);
     background-color: var(--secondary-color);
-    padding: 12px 18px 12px 18px;
+    padding: 16px;
+    border: none;
     border-radius: 15px;
     transition: all 0.4s ease;
 }
 
-.divInfo a:hover{
-    padding: 16px 20px 16px 20px;
+.divInfo button:hover{
+    padding: 20px
 }

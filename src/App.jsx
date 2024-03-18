@@ -9,6 +9,8 @@ import Container from "./components/layout/Container";
 import Footer from "./components/layout/Footer";
 
 function App() {
+
+  
   return (
     <Router>
       <Navbar />

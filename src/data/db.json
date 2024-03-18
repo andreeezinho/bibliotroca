@@ -5,79 +5,90 @@
             "imagem": "https://grifogeek.com.br/wp-content/uploads/2023/10/6.png",
             "name": "A Espada do Destino",
             "estado": "Seminovo",
-            "processamento": "Disponível para trocas"
+            "disponibilidade": "Disponível para trocas",
+            "local": "Tucano/BA",
+            "quantia": 2
         },
-
         {
             "id": 2,
             "imagem": "https://cdn.dooca.store/81243/products/ip4iifmmgvdh6ukdbrvtxwxuhoef7j67so9i_640x640+fill_ffffff.jpg?v=1681914382&webp=0",
             "name": "Um homem chamado Ove",
             "estado": "Seminovo",
-            "processamento": "Disponível para trocas"
+            "disponibilidade": "Disponível para trocas",
+            "local": "Alagoinhas/BA",
+            "quantia": 2
         },
-
         {
             "id": 3,
             "imagem": "https://cdn.awsli.com.br/8/8427/produto/146966506/b70aabd08f.jpg",
             "name": "Antes que o café esfrie",
             "estado": "Novo",
-            "processamento": "Disponível para trocas"
+            "disponibilidade": "Disponível para trocas",
+            "local": "Tucano/BA",
+            "quantia": 2
         },
-
         {
             "id": 4,
             "imagem": "https://a-static.mlcdn.com.br/450x450/livro-blade-runner-philip-k-dick/magazineluiza/237546000/e39ea490ecddfcd70c9ac37b6925a68a.jpg",
             "name": "Blade Runner",
             "estado": "Desgastado",
-            "processamento": "Disponível para trocas"
+            "disponibilidade": "Disponível para trocas",
+            "local": "Alagoinhas/BA",
+            "quantia": 2
         },
-
         {
             "id": 5,
             "imagem": "https://livrariaflorence.fbitsstatic.net/img/p/livro-viagem-ao-centro-da-terra-col-almanaque-dos-classicos-da-literatura-unive-verne-fraga-214371/400717.jpg?w=660&h=660&v=no-change&qs=ignore",
             "name": "Viagem ao centro da Terra",
             "estado": "Seminovo",
-            "processamento": "Disponível apenas para compra"
+            "disponibilidade": "Disponível apenas para compra",
+            "local": "Tucano/BA",
+            "quantia": 2
         },
-        
         {
             "id": 6,
             "imagem": "https://livrariaflorence.fbitsstatic.net/img/p/livro-daisy-jones-and-the-six-uma-historia-de-amor-e-musica-reid-195377/381720.jpg?w=660&h=660&v=no-change&qs=ignore",
             "name": "Daisy Jones & the Six",
             "estado": "Novo",
-            "processamento": "Disponível apenas para compra"
+            "disponibilidade": "Disponível apenas para compra",
+            "local": "Alagoinhas/BA",
+            "quantia": 2
         },
-
         {
             "id": 7,
             "imagem": "https://i.zst.com.br/thumbs/12/3a/34/1458246639.jpg",
             "name": "Diário de uma paixão",
             "estado": "Novo",
-            "processamento": "Disponível apenas para compra"
+            "disponibilidade": "Disponível apenas para compra",
+            "local": "Tucano/BA",
+            "quantia": 2
         },
-
         {
             "id": 8,
             "imagem": "https://cdn.awsli.com.br/600x1000/2088/2088593/produto/198413743/tmpmockup3dcapaailhadotesouro1000x1000comfundo-122fc5419e.jpg",
             "name": "A ilha do tesouro",
             "estado": "Novo",
-            "processamento": "Disponível apenas para compra"
+            "disponibilidade": "Disponível apenas para compra",
+            "local": "Alagoinhas/BA",
+            "quantia": 2
         },
-
         {
             "id": 9,
             "imagem": "https://editoraaleph.com.br/wp-content/uploads/2020/09/03_SKU_Duna.png",
             "name": "Duna",
             "estado": "Novo",
-            "processamento": "Disponível apenas para compra"
+            "disponibilidade": "Disponível apenas para compra",
+            "local": "Tucano/BA",
+            "quantia": 2
         },
-
         {
             "id": 10,
             "imagem": "https://images-americanas.b2w.io/produtos/01/00/img/5202808/2/5202808278_1GG.jpg",
             "name": "A Sociedade do Anel",
             "estado": "Seminovo",
-            "processamento": "Disponível apenas para compra"
+            "disponibilidade": "Disponível apenas para compra",
+            "local": "Alagoinhas/BA",
+            "quantia": 2
         }
     ]
 }

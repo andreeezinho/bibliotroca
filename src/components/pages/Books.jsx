@@ -1,27 +1,49 @@
+import React from 'react';
 import jsonData from '../../data/db.json';
+import { useState } from 'react';
 
+import BookDetails from "../BookDetails.jsx";
 import styles from "../../css/Books.module.css";
 
 
 function Books() {
     console.log(jsonData);
 
-    return(
-        <section className={styles.sectionContainer}>
-            {jsonData.books.map((item) => (
-                <div key={item.id} className={styles.divContainer}>
-                    <div className={styles.divImg}>
-                        <img src={item.imagem} alt={item.name} />
-                    </div>
+    const [selectedBook, setSelectedBook] = useState(null);
 
-                    <div className={styles.divInfo}>
-                        <h2>{item.name}</h2>
-                        <p>{item.estado}</p>
-                        <a href="###">Trocar</a>
+    const handleBookClick = (book) => {
+        setSelectedBook(book);
+    };
+
+    const handleBookClose = () => {
+        setSelectedBook(null);
+    };
+
+    return(
+        <>
+            {selectedBook && (
+                <section className={styles.detalhes}>
+                    <BookDetails dados={selectedBook} />
+                    <button onClick={() => handleBookClose(null)}>Detalhes</button>
+                </section>
+            )}
+
+            <section className={styles.sectionContainer}>
+                {jsonData.books.map((item) => (
+                    <div key={item.id} className={styles.divContainer}>
+                        <div className={styles.divImg}>
+                            <img src={item.imagem} alt={item.name} />
+                        </div>
+
+                        <div className={styles.divInfo}>
+                            <h2>{item.name}</h2>
+                            <p>{item.estado}</p>
+                            <button onClick={() => handleBookClick(item)}>Trocar</button>
+                        </div>
                     </div>
-                </div>
-            ))}
-        </section>
+                ))}
+            </section>
+        </>
     )
 }
 
