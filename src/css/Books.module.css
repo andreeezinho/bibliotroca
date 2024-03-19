@@ -5,12 +5,18 @@
     left: 50%;
     top: 50%;
     transform: translateY(-50%) translateX(-50%);
-    width: 70%;
-    height: 80%;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     border: 1px solid var(--secondary-color);
     border-radius: 20px;
-    padding: 15px
+    padding: 15px;
+}
+
+.detalhes img{
+    width: 10%;
 }
 
 .sectionContainer {
@@ -23,18 +29,6 @@
     grid-row-gap: 60px;
     grid-template-columns: repeat(4, 300px);
     padding-top: 80px;
-}
-
-@media(max-width: 1650px){
-    .sectionContainer{
-        grid-template-columns: repeat(3, 300px);
-    }
-}
-
-@media(max-width: 1250px){
-    .sectionContainer{
-        grid-template-columns: repeat(2, 300px);
-    }
 }
 
 .divContainer{
@@ -88,4 +82,80 @@
 
 .divInfo button:hover{
     padding: 20px
+}
+
+@media(max-width: 1650px){
+    .sectionContainer{
+        grid-template-columns: repeat(3, 300px);
+    }
+}
+
+@media(max-width: 1250px){
+    .sectionContainer{
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media(max-width: 500px){
+    .detalhes{
+        width: 85%;
+        z-index: 1;
+    }
+
+    .detalhes img{
+        width: 40%;
+    }
+
+    .sectionContainer {
+        width: 100%;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 30px;
+        grid-template-columns: repeat(2, 180px);
+        padding-top: 80px;
+    }
+
+    .divContainer{
+        position: relative;
+        width: 180px;
+        height: 250px;
+        border-radius: 20px;
+        z-index: 0;
+    }
+
+
+    .divInfo{
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    .divInfo h2{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        color: var(--secondary-color);
+    }
+    
+    .divInfo p{
+        font-size: 12px;
+        margin: 10px 0 10px 0;
+    }
+    
+    .divInfo button{
+        position: absolute;
+        left: 5px;
+        bottom: 15px;
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--tertiary-color);
+        background-color: var(--secondary-color);
+        padding: 10px;
+        border: none;
+        border-radius: 15px;
+        transition: all 0.4s ease;
+    }
+
+    .divInfo button:hover{
+        padding: 14px;
+    }
 }
