@@ -15,6 +15,18 @@
     padding: 15px;
 }
 
+.detalhes button{
+    margin: 0 auto;
+    width: 20%;
+    padding: 12px;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: -10px 10px 10px #d0cfeb;
+}
+
 .detalhes img{
     width: 10%;
 }
@@ -98,12 +110,17 @@
 
 @media(max-width: 500px){
     .detalhes{
+        top: 70%;
         width: 85%;
         z-index: 1;
     }
 
     .detalhes img{
         width: 40%;
+    }
+
+    .detalhes button{
+        box-shadow: -5px 5px 10px #d0cfeb;
     }
 
     .sectionContainer {
@@ -157,5 +174,22 @@
 
     .divInfo button:hover{
         padding: 14px;
+    }
+}
+
+@media(max-width: 400px){
+    .sectionContainer {
+        grid-column-gap: 10px;
+        grid-template-columns: repeat(2, 160px);
+        padding-top: 50px;
+    }
+
+    .divContainer{
+        width: 160px;
+        height: 250px;
+    }
+
+    .detalhes button{
+        font-size: 14px;
     }
 }

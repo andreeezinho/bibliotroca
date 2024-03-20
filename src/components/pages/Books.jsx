@@ -22,9 +22,9 @@ function Books() {
     return(
         <>
             {selectedBook && (
-                <section className={styles.detalhes}>
+                <section id="detalhes" className={styles.detalhes}>
                     <BookDetails dados={selectedBook} />
-                    <button onClick={() => handleBookClose(null)}>Detalhes</button>
+                    <button onClick={() => handleBookClose(null)}>Fechar</button>
                 </section>
             )}
 
@@ -38,7 +38,7 @@ function Books() {
                         <div className={styles.divInfo}>
                             <h2>{item.name}</h2>
                             <p>{item.estado}</p>
-                            <button onClick={() => handleBookClick(item)}>Trocar</button>
+                            <a href="#detalhes"><button onClick={() => handleBookClick(item)}>Trocar</button></a>
                         </div>
                     </div>
                 ))}

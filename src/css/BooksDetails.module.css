@@ -1,28 +1,40 @@
 @import url("../css/root.module.css");
 
-.container{
+.container {
     display: flex;
+    text-align: center;
 }
 
-.divInfo{
+.divInfo {
     width: 50%;
 }
 
-.divInfo h1{
+.divInfo h1 {
+    color: var(--secondary-color);
     font-size: 20px;
-    margin: 0;
+    margin: 15px 0 0 0;
 }
 
-.divInfo div img{
+.divInfo div img {
     width: 30%;
 }
 
-.divInfo div p{
+.divInfo div p {
     font-size: 18px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
-.divInfo div p span{
+.divInfo div p span {
     color: black;
+}
+
+@media(max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .divInfo {
+        width: 100%;
+    }
 }
