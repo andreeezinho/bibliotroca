@@ -1,0 +1,64 @@
+@import url("./root.module.css");
+
+.container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.texto{
+    margin-bottom: 30px;
+}
+
+.texto h1{
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.texto p{
+    text-align: justify;
+    text-indent: 3ch;
+    line-height: 2em;
+}
+
+.links h2{
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.social{
+    text-align: center;
+}
+
+.social a{
+    margin: 0 20px 0 20px;
+    font-size: 50px;
+}
+
+.social svg{
+    color: var(--secondary-color);
+    font-size: 40px;
+    transition: all 0.5s ease;
+}
+
+.social svg:hover{
+    font-size: 45px;
+}
+
+@media(max-width: 500px){
+    .container{
+        width: 80%;
+    }
+
+    .texto p{
+        text-indent: 2ch;
+        line-height: 2em;
+    }
+
+    .links p {
+        line-height: 1.5em;
+        text-align: justify;
+    }
+}

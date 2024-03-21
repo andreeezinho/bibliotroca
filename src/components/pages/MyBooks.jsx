@@ -3,6 +3,7 @@ import jsonData from "../../data/db.json";
 
 import InputAdd from '../InputAdd';
 import {FaImage} from "react-icons/fa"
+import img from "../../img/FormBook.svg";
 
 import styles from "../../css/MyBooks.module.css";
 
@@ -17,26 +18,30 @@ function MyBooks() {
         contato: '',
       });
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
+    const handleSubmit = (e) => {
+        e.preventDefault();
 
         const newData = {
           id: jsonData.books.length + 1, 
           ...formData,
         }
         jsonData.books.push(newData);
-        
+
         console.log(jsonData); 
-        alert("Livro Adicionado na biblioteca!")
+        alert("Livro adicionado na biblioteca");
     };
 
-    const handleChange = (event) => {
-        const { name, value } = event.target;
+    const handleChange = (e) => {
+        const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
 
     return(
         <div className={styles.divForm}>
+            <div>
+                <img src={img} alt="Imagem" />
+            </div>
+
             <form onSubmit={handleSubmit}>
                 <h1>Adicione mais livro para a nossa biblioteca!</h1>
                 {/* <input type="text" name="name" value={formData.title} onChange={handleChange} /> */}
